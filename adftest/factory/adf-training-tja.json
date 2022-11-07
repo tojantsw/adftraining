@@ -1,0 +1,9 @@
+{
+	"name": "adf-training-tja",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a0ad6bf-e385-4342-a18a-a6a4bb999e0c",
+		"tenantId": "dd559b05-19eb-4957-af73-9ee420d71796"
+	}
+}
