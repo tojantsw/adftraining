@@ -16,8 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "PostgreSqlSource",
-						"query": "select * from adf.customer"
+						"type": "PostgreSqlSource"
 					},
 					"dataset": {
 						"referenceName": "PostgreSqlTable_customer",
