@@ -15,23 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"dataset": {
-						"referenceName": "DS_Blob_container",
-						"type": "DatasetReference"
-					},
-					"fieldList": [
-						"exists",
-						"lastModified",
-						"childItems"
-					],
-					"storeSettings": {
-						"type": "AzureBlobStorageReadSettings",
-						"recursive": true,
-						"enablePartitionDiscovery": false
-					},
-					"formatSettings": {
-						"type": "DelimitedTextReadSettings"
-					}
+					"fieldList": []
 				}
 			}
 		],
