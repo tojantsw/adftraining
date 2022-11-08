@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "PostgreSqlSource",
-						"query": "select [CustomerID],\n[NameStyle],\n[Title],\n[FirstName] from adf.customer"
+						"query": "select CustomerID,\nNameStyle,\nTitle,\nFirstName from adf.customer"
 					},
 					"dataset": {
 						"referenceName": "PostgreSqlTable_customer",
