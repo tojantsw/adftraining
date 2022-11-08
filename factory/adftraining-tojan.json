@@ -1,0 +1,9 @@
+{
+	"name": "adftraining-tojan",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ad53f87-379f-4f6d-9cd7-278b70d63444",
+		"tenantId": "dd559b05-19eb-4957-af73-9ee420d71796"
+	}
+}
