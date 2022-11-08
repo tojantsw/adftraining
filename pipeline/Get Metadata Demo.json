@@ -16,16 +16,17 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DelimitedText_Country",
+						"referenceName": "DS_Blob_container",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"exists",
-						"size",
-						"lastModified"
+						"lastModified",
+						"childItems"
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
