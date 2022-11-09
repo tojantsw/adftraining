@@ -7,6 +7,10 @@
 		},
 		"annotations": [],
 		"type": "PostgreSqlTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"schema": "adf",
+			"table": "sales_details"
+		}
 	}
 }
