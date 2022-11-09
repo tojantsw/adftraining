@@ -1,0 +1,12 @@
+{
+	"name": "AmazonRdsForSqlServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "awspostgresdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AmazonRdsForSqlServerTable",
+		"schema": []
+	}
+}
