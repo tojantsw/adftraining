@@ -60,11 +60,7 @@
 							"typeProperties": {
 								"source": {
 									"type": "PostgreSqlSource",
-									"additionalColumns": {
-										"type": "Expression",
-										"value": "@item().Year"
-									},
-									"query": "select adf.salesin()"
+									"query": "select adf.salesin(@int(item().Year))"
 								},
 								"sink": {
 									"type": "DelimitedTextSink",
