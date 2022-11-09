@@ -1,0 +1,16 @@
+{
+	"name": "PostgreSqladfSales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PostgreSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "PostgreSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "adf",
+			"table": "sales_details"
+		}
+	}
+}
