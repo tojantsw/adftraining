@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "PostgreSqlSource",
-						"query": "SELECT adf.salesin(2015);"
+						"query": "SELECT distinct year from add.sales_details;"
 					},
 					"dataset": {
 						"referenceName": "PostgreSqlTable",
