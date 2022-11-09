@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "PostgreSqlSource",
-						"query": "SELECT adf.salesin(2,015);"
+						"query": "SELECT adf.salesin(2015);"
 					},
 					"dataset": {
 						"referenceName": "PostgreSqlTable",
